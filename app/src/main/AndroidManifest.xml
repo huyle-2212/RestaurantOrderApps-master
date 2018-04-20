@@ -4,6 +4,7 @@
     package="com.example.minhthanh.restaurantorderapps">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -24,7 +25,11 @@
         </activity>
         <activity android:name=".QRCode" />
         <activity android:name=".ListFoodsToOrder" />
-        <activity android:name=".WelcomeMainActivity"></activity>
+        <activity android:name=".WelcomeMainActivity" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

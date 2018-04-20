@@ -20,7 +20,7 @@ public class WelcomeMainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(WelcomeMainActivity.this,QRCode.class);
+                Intent i = new Intent(WelcomeMainActivity.this,Home.class);
                 startActivity(i);
             }
         });
