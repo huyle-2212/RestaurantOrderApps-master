@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Huy Le\Desktop\RestaurantOrderApps-master\RestaurantOrderApps.iml" filepath="C:\Users\Huy Le\Desktop\RestaurantOrderApps-master\RestaurantOrderApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestaurantOrderApps.iml" filepath="$PROJECT_DIR$/RestaurantOrderApps.iml" />
       <module fileurl="file://$PROJECT_DIR$/RestaurantOrderApps-master.iml" filepath="$PROJECT_DIR$/RestaurantOrderApps-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

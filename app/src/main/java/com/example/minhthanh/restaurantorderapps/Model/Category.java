@@ -1,4 +1,4 @@
-package com.example.minhthanh.restaurantorderapps;
+package com.example.minhthanh.restaurantorderapps.Model;
 
 /**
  * Created by Huy Le on 4/20/2018.

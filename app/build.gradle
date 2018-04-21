@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.example.minhthanh.restaurantorderapps"
         minSdkVersion 19
@@ -39,4 +39,7 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-database:1.2.0'
     compile 'com.android.support:recyclerview-v7:26.+'
 }
+
+
+
 apply plugin: 'com.google.gms.google-services'
