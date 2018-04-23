@@ -1,12 +1,12 @@
 package com.example.minhthanh.restaurantorderapps;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.minhthanh.restaurantorderapps.Interface.ItemClickListener;
 import com.example.minhthanh.restaurantorderapps.Model.Food;
@@ -63,7 +63,9 @@ public class ListFoodsToOrder extends AppCompatActivity {
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(ListFoodsToOrder.this, ""+local.getName(), Toast.LENGTH_SHORT).show();
+                        Intent foodDetail = new Intent(ListFoodsToOrder.this, FoodDetail.class);
+                        foodDetail.putExtra("FoodId",adapter.getRef(position).getKey());
+                        startActivity(foodDetail);
                     }
                 });
             }
